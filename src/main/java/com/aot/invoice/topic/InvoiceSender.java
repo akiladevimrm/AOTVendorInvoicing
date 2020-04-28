@@ -3,10 +3,10 @@ package com.aot.invoice.topic;
 import com.aot.invoice.model.Invoice;
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.producer.*;
+import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.config.SslConfigs;
 import org.apache.kafka.common.serialization.LongSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
-import org.apache.kafka.common.security.plain.PlainLoginModule;
 
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
